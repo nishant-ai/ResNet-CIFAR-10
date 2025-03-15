@@ -6,6 +6,9 @@ This repository contains the implementation of an improved ResNet model for imag
 ## Final Model
 The final trained model can be found in the Jupyter Notebook: **DL_Project_1_main.ipynb**. This notebook includes the complete training pipeline, evaluation metrics, and model architecture.
 
+### Trained Model Link
+You can access the trained model here: [Trained Model on Google Drive](https://drive.google.com/drive/folders/1gmAXhLqKZ-XWYBMUrk87qFb7YoZvKHaX?usp=sharing).
+
 ## Methodology
 ### Model Architecture
 - Custom ResNet with a progressive filter strategy: (32 → 64 → 128 → 192 → 256).
@@ -23,6 +26,13 @@ The final trained model can be found in the Jupyter Notebook: **DL_Project_1_mai
 - **Training Accuracy:** 98.71%
 - **Validation Accuracy:** 94.31%
 - **Model Parameters:** 4.17 million
+
+## Model Architecture
+### Initial Model
+![Initial ResNet Model](resnet18.png)
+
+### Improved Model
+![Improved ResNet Model](ImprovedResNet18.png)
 
 ## Usage
 To use this model:
